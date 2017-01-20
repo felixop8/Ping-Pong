@@ -15,5 +15,11 @@ $(function() {
 var pingPong = function(number){
   if (number !== number) {
     return false;
+  } else{
+
+    var arr = []
+    for (var i = 1; i <= number ; i += 1){
+      arr.push(i);
+    };
   }
 }
