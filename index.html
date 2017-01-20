@@ -11,19 +11,44 @@
   <body>
     <div class="container">
       <div class="jumbotron">
-        <h1>Ping Pong</h1>
+        <h1>Ping-Pong</h1>
       </div>
-      <form id="ping-pong">
-        <div class="form-group">
-          <label for="number">Introduce your number</label>
-          <input id="number" type="text">
-        </div>
+      <div id="formBtn">
+        <h2>Let's play!</h2>
+        <h4>Rules:</h4>
+        <p>Ping Pong will count up to your number from 1 with the following exceptions:</p>
+        <ol>
+          <li>Numbers divisible by 3 become "ping"</li>
+          <li>Numbers divisible by 5 become "pong"</li>
+          <li>Numbers divisible by 15 become "ping-pong"</li>
+        </ol>
+        <form id="ping-pong" class="form-inline">
+          <div class="form-group">
+            <label for="number">Enter your number here:</label>
+            <input id="number" type="text" class="form-control" >
+          </div>
 
-        <button type="submit" id="btn">Submit</button>
-      </form>
-      <div id="result">
-        
+          <button type="submit" class="btn btn-info" id="btn">Submit</button>
+        </form>
+
+        <div id="result" class="well">
+          <h4></h4>
+          <ul>
+
+          </ul>
+        </div>
       </div>
+
+      <div id="infoApp">
+        <h2>About Ping Pong</h2>
+        <h3>Created by:</h3>
+        <p>Felix Oporto</p>
+        <h3>Epicodus code review:</h3>
+        <p>This application is meant as a demonstration of techniques for looping with Javascript and jQuery</p>
+        <h3>GitHub:</h3>
+        <p><a href="https://github.com/felixop8/Ping-Pong">PingPong</a></p>
+      </div>
+
     </div>
   </body>
 </html>
