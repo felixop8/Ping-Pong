@@ -25,6 +25,9 @@ body {
   float: right;
 }
 
+
+/*Media Query*/
+
 @media screen and (max-width : 480px) {
   #infoApp {
     display: none;
