@@ -24,3 +24,14 @@ body {
   width: 40%;
   float: right;
 }
+
+@media screen and (max-width : 480px) {
+  #infoApp {
+    display: none;
+  }
+
+  #formBtn {
+    float: none;
+    width: auto;
+  }
+}
