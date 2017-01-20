@@ -29,7 +29,7 @@ $(function() {
     event.preventDefault();
     var number = parseInt($('input#number').val());
     var results = pingPong(number);
-
+    $('.well').show();
     if (!results) {
       $("#result li").remove();
       $("#result h4").show();
