@@ -13,13 +13,19 @@ $(function() {
 // BUSINESS LOGIC
 
 var pingPong = function(number){
+
   if (number !== number) {
     return false;
-  } else{
+  };
 
-    var arr = []
-    for (var i = 1; i <= number ; i += 1){
-      arr.push(i);
-    };
-  }
+  var arrayNumbers = []
+
+  for (var i = 1; i <= number ; i += 1) {
+    if (i % 3 === 0) {
+      arrayNumbers.push("ping"  )
+    }  else {
+      arrayNumbers.push(i);
+    }
+  };
+  return arrayNumbers
 }
