@@ -12,20 +12,35 @@ _This website application is meant as demonstration of the use of  different loo
 
 
 * #### Don't allow alphanumeric inputs
+
     * _Input Example: a12$_
+
     * _Example Output: This entry can only contain numbers._
+
 * #### It can count up to the provided number
+
     * _Input Example: 2_
+
     * _Example Output: [1,2]_
+
 * #### Numbers divisible by 3 are replaced with "ping"
+
     * _Input Example: 6_
+
     * _Example Output: ping_
+
 * #### Numbers divisible by 5 are replaced with "pong"
+
     * _Input Example: 15_
+
     * _Example Output: pong_
+
 * #### Numbers divisible by 3 are replaced with "ping-pong"
+
     * _Input Example: 15_
+
     * _Example Output: ping-pong_
+
 ## Setup/Installation Requirements
 
 * _Clone this repository and then open 'index.html' in the browser_
