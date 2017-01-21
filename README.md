@@ -1,24 +1,31 @@
-# _Transportation Survey_
+# _Ping Pong_
 
-#### _Website that ask users to select the way they travel for working and fun._
+#### _Application to create substitutions based on a numeric list._
 
 #### By _**Felix Oporto**_
 
 ## Description
 
-_This survey website is gonna ask user to input a value trhow checkbox and then they will recieve a respond related to the boxes they selected. This website works with a simple form, a function gather the values and send them to a span in html with the help of jQuery._
+_This website application is meant as demonstration of the use of  different loops in JavaScript and Jquery. It include the use of "forEach" and "for" loops. It has been created to cover the weekly Epicodus code review of the third week of the intro course._
 
 ## Specifications
 
 
-*_It return false when it is not a number._
-  *Input: abc
-  *Example Output: false
-
-*_It can count up to the provided number._
-  *Input:2
-  *Example Output:[1,2]
-
+* #### Don't allow alphanumeric inputs
+    * _Input Example: a12$_
+    * _Example Output: This entry can only contain numbers._
+* #### It can count up to the provided number
+    * _Input Example: 2_
+    * _Example Output: [1,2]_
+* #### Numbers divisible by 3 are replaced with "ping"
+    * _Input Example: 6_
+    * _Example Output: ping_
+* #### Numbers divisible by 5 are replaced with "pong"
+    * _Input Example: 15_
+    * _Example Output: pong_
+* #### Numbers divisible by 3 are replaced with "ping-pong"
+    * _Input Example: 15_
+    * _Example Output: ping-pong_
 ## Setup/Installation Requirements
 
 * _Clone this repository and then open 'index.html' in the browser_
