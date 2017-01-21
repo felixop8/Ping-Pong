@@ -11,9 +11,9 @@ _This website application is meant as demonstration of the use of  different loo
 ## Specifications
 
 
-* #### Don't allow alphanumeric inputs
+* #### Don't allow words or letters
 
-    * _Input Example: a12$_
+    * _Input Example: abc_
 
     * _Example Output: This entry can only contain numbers._
 
