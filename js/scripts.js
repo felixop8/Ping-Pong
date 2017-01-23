@@ -2,7 +2,7 @@
 
 var pingPong = function(number) {
 
-  if (number !== number) {
+ if (isNaN(number)) {
     return false
   } else {
     var arrayNumbers = []
