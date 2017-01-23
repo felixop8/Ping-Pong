@@ -1,7 +1,14 @@
 .jumbotron {
   background-color: #63ce9e ;
-  text-align: center;
+  box-shadow: 5px 5px 6px #424945;
 }
+
+.jumbotron h1 {
+  text-align: center;
+  font-family: 'Bangers', cursive;
+  font-size: 8em;
+}
+
 body {
   background-color: #ffe27a ;
 }
