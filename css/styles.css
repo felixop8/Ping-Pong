@@ -30,12 +30,14 @@ body {
   padding: 20px;
   width: 40%;
   float: right;
+  border-radius: 10%;
 }
 
 
 /*Media Query*/
 
 @media screen and (max-width : 500px) {
+
   #infoApp {
     display: none;
   }
