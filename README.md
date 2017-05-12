@@ -8,6 +8,9 @@
 
 _This website application is meant as demonstration of the use of  different loops in JavaScript and Jquery. It include the use of "forEach" and "for" loops. It has been created to cover the weekly Epicodus code review of the third week of the intro course._
 
+# ![pageres](img/shot.png)
+
+
 ## Specifications
 
 
